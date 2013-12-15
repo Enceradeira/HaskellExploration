@@ -1,0 +1,10 @@
+Version of workspace file format:
+               1
+Time of storage:
+               "Sun Dec 15 16:57:51 GMT Standard Time 2013"
+Name of the workspace:
+               "haskell-exploration"
+File paths of contained packages:
+               ["chapter3\\chapter3.cabal"]
+Maybe file path of an active package:
+               Just "chapter3\\chapter3.cabal"
