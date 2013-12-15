@@ -1,2 +1,2 @@
-HaskellExploartion
+HaskellExploration
 ==================
