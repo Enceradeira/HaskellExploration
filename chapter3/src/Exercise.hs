@@ -15,6 +15,8 @@
 module Exercise where
 
 import Data.List
+import Text.Show
+
 
 {- exercise 1+2 -}
 
@@ -68,4 +70,41 @@ intersperse :: a -> [[a]] -> [a]
 intersperse _ []     = []
 intersperse _ [xs]   = xs
 intersperse a (x:xs) = x ++ [a] ++ (Exercise.intersperse a xs )
+
+{- exercise 8 -}
+data Maybe a =  Just a
+                | Nothing
+
+data Tree a = Tree  {
+                        element :: a,
+                        left :: Exercise.Maybe(Tree a),
+                        right :: Exercise.Maybe(Tree a)
+                    }
+
+treeHeight :: (Tree a) -> Int
+treeHeight (Tree _ (Exercise.Just(a)) _)  = 1 + treeHeight(a)
+treeHeight (Tree _ _ (Exercise.Just(a)))  = 1 + treeHeight(a)
+treeHeight (Tree _ _ _)                   = 1
+
+{- exercise 9 -}
+data Direction = Left | Right | Straight
+
+{- exercise 10 -}
+
+distance :: (Int,Int) -> (Int,Int) -> Float
+distance (x1,y1) (x2,y2) = sqrt((x2N^2) + (y2N^2))
+    where
+        x2N = fromIntegral(x2)-fromIntegral(x1)
+        y2N = fromIntegral(y2)-fromIntegral(y1)
+
+
+getDirection :: (Int,Int) -> (Int,Int) -> (Int,Int) -> Exercise.Direction
+getDirection (ax,ay) (bx,by) (cx,cy) = Exercise.Left
+        where
+           a = Exercise.distance(ax,ay)
+           b = Exercise.distance(bx,by)
+           c = Exercise.distance(cx,cy)
+           beta = atan (4)
+
+
 
