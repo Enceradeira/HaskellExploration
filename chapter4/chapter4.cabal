@@ -7,9 +7,9 @@ license-file: ""
 description:  
 data-dir: ""
  
-executable chapter4
+executable InteractiveWith
     build-depends: QuickCheck -any, base -any
-    main-is: Main.hs
+    main-is: InteractiveWith.hs
     buildable: True
     hs-source-dirs: src
  
