@@ -97,14 +97,26 @@ distance (x1,y1) (x2,y2) = sqrt((x2N^2) + (y2N^2))
         x2N = fromIntegral(x2)-fromIntegral(x1)
         y2N = fromIntegral(y2)-fromIntegral(y1)
 
-
+{-
 getDirection :: (Int,Int) -> (Int,Int) -> (Int,Int) -> Exercise.Direction
 getDirection (ax,ay) (bx,by) (cx,cy) = Exercise.Left
         where
-           a = Exercise.distance(ax,ay)
-           b = Exercise.distance(bx,by)
-           c = Exercise.distance(cx,cy)
-           beta = atan (4)
+           bxn = bx-ax
+           byn = by-ay
+           cxn = cx-ax
+           cyn = cy-ay
+           bB  = atan(byn/bxn)
+           cC  = atan(cyn/cxn)
 
+getAngles :: (Int,Int) -> (Int,Int) -> (Int,Int) -> (Int,Int)
+getAngles (ax,ay) (bx,by) (cx,cy) = (bB,cC)
+        where
+           bxn = bx-ax
+           byn = by-ay
+           cxn = cx-ax
+           cyn = cy-ay
+           bB  = atan--(byn/bxn)
+           cC  = atan(cyn/cxn)
+-}
 
 

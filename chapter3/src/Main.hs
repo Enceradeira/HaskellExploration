@@ -26,5 +26,8 @@ main = do
     putStrLn ("Tree-Height: " ++ show(treeHeight(tree)))
     {- exercise 9 -}
     putStrLn ("Distance: " ++ show(distance (0,0) (2,2)))
+    {- exercise 10 -}
+    --slet dir = getDirection (0,0) (2,2) (3,3)
+    --putStrLn ("Distance: " ++ show(distance (0,0) (2,2)))
 
 
