@@ -1,9 +1,9 @@
 Version of session file format:
                1
 Time of storage:
-               "Sun Dec 22 16:34:03 GMT Standard Time 2013"
+               "Wed Jan  1 14:25:40 GMT Standard Time 2014"
 Layout:        VerticalP (VerticalP (VerticalP (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) 657) (TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = -1, detachedId = Nothing, detachedSize = Nothing}) 1328) (HorizontalP (TerminalP {paneGroups = fromList [("Browser",HorizontalP (TerminalP {paneGroups = fromList [], paneTabs = Nothing, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) (HorizontalP (TerminalP {paneGroups = fromList [], paneTabs = Nothing, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) (TerminalP {paneGroups = fromList [], paneTabs = Nothing, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) 188) 340)], paneTabs = Just BottomP, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) (TerminalP {paneGroups = fromList [], paneTabs = Nothing, currentPage = 0, detachedId = Nothing, detachedSize = Nothing}) 692) 1334
-Population:    [(Just (ErrorsSt ErrorsState),[SplitP RightP,SplitP TopP]),(Just (BufferSt (BufferState "C:\\projects\\jj\\HaskellExploration\\chapter3\\src\\Exercise.hs" 2533)),[SplitP LeftP,SplitP LeftP,SplitP RightP]),(Just (FilesSt FilesState),[SplitP RightP,SplitP TopP]),(Just (InfoSt (InfoState Nothing)),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP BottomP,SplitP BottomP]),(Just (LogSt LogState),[SplitP RightP,SplitP BottomP]),(Just (BufferSt (BufferState "C:\\projects\\jj\\HaskellExploration\\chapter3\\src\\Main.hs" 407)),[SplitP LeftP,SplitP LeftP,SplitP LeftP]),(Just (ModulesSt (ModulesState 216 (SystemScope,False) (Nothing,Nothing) (ExpanderState {packageExp = ([],[]), packageExpNoBlack = ([],[]), packageDExp = ([],[]), packageDExpNoBlack = ([],[]), workspaceExp = ([],[]), workspaceExpNoBlack = ([],[]), workspaceDExp = ([],[]), workspaceDExpNoBlack = ([],[]), systemExp = ([],[]), systemExpNoBlack = ([],[])}))),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP BottomP,SplitP TopP]),(Just (WorkspaceSt WorkspaceState),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP TopP])]
+Population:    [(Just (ErrorsSt ErrorsState),[SplitP RightP,SplitP TopP]),(Just (BufferSt (BufferState "C:\\projects\\jj\\HaskellExploration\\chapter3\\src\\Exercise.hs" 2602)),[SplitP LeftP,SplitP LeftP,SplitP RightP]),(Just (FilesSt FilesState),[SplitP RightP,SplitP TopP]),(Just (InfoSt (InfoState Nothing)),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP BottomP,SplitP BottomP]),(Just (LogSt LogState),[SplitP RightP,SplitP BottomP]),(Just (BufferSt (BufferState "C:\\projects\\jj\\HaskellExploration\\chapter3\\src\\Main.hs" 765)),[SplitP LeftP,SplitP LeftP,SplitP LeftP]),(Just (ModulesSt (ModulesState 216 (SystemScope,False) (Nothing,Nothing) (ExpanderState {packageExp = ([],[]), packageExpNoBlack = ([],[]), packageDExp = ([],[]), packageDExpNoBlack = ([],[]), workspaceExp = ([],[]), workspaceExpNoBlack = ([],[]), workspaceDExp = ([],[]), workspaceDExpNoBlack = ([],[]), systemExp = ([],[]), systemExpNoBlack = ([],[])}))),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP BottomP,SplitP TopP]),(Just (WorkspaceSt WorkspaceState),[SplitP RightP,SplitP TopP,GroupP "Browser",SplitP TopP])]
 Window size:   (1920,1018)
 Completion size:
                (750,400)
@@ -11,8 +11,8 @@ Workspace:     Just "C:\\projects\\jj\\HaskellExploration\\haskell-exploration.l
 Active pane:   Just "Main.hs"
 Toolbar visible:
                True
-FindbarState:  (False,FindState {entryStr = "", entryHist = [""], replaceStr = "", replaceHist = [], caseSensitive = False, entireWord = False, wrapAround = False, regex = False, lineNr = 1})
+FindbarState:  (True,FindState {entryStr = "", entryHist = [""], replaceStr = "", replaceHist = [], caseSensitive = False, entireWord = False, wrapAround = False, regex = False, lineNr = 1})
 Recently opened files:
-               ["C:\\Projects\\jj\\HaskellExploration\\haskell-exploration.lkshs"]
+               ["C:\\projects\\jj\\HaskellExploration\\chapter3\\src\\InteractWith.hs","C:\\Projects\\jj\\HaskellExploration\\haskell-exploration.lkshs"]
 Recently opened workspaces:
-               []
+               ["C:\\projects\\jj\\HaskellExploration\\haskell-exploration.lkshw"]
