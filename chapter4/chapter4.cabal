@@ -7,10 +7,11 @@ license-file: ""
 description:  
 data-dir: ""
  
-executable InteractiveWith
+executable InteractWith
     build-depends: QuickCheck -any, base -any
-    main-is: InteractiveWith.hs
+    main-is: InteractWith.hs
     buildable: True
+    cpp-options: -DMAIN_FUNCTION=testMain
     hs-source-dirs: src
  
 test-suite test-chapter4
